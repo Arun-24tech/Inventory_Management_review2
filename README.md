@@ -30,3 +30,14 @@ Create a MySQL database and table (items) using the provided SQL script
 Update DB credentials in DBConnection.java
 
 Run the project using your preferred IDE (e.g., IntelliJ)
+
+
+Structure
+InventoryManagementSystem/
+├── Main.java
+├── Item.java
+├── InventoryDAO.java
+├── InventoryDAOImpl.java
+├── DBConnection.java
+└── utils/
+    └── InputValidator.java
