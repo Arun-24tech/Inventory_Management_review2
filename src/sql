@@ -1,0 +1,8 @@
+CREATE DATABASE inventorydb;
+USE inventorydb;
+CREATE TABLE items (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    quantity INT,
+    price DOUBLE
+);
